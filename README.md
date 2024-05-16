@@ -24,7 +24,7 @@ Astronomy Big Data Exploration Camp (ABDEC) II: High Resolution Spectroscopy
 
 SOC：王雪凇（co-chair），张敬华（co-chair），陈果，丁源森，李海宁，施建荣，汤柏添，王炜，向茂盛，苑海波，袁珍，张华伟
 
-LOC：连建辉（chair），张敬华，郭晓明，子昭瑾，祁梦妮，季辰阳，邵秦昊，赵玉泽，杜国王
+LOC：连建辉（chair），张敬华，郭晓明，子昭瑾，祁梦妮，季辰阳，邵秦昊，赵玉泽，王靓，杜国王
 
 注册费：每人1400元（含午餐和晚餐），交通和住宿费用自理。
 
