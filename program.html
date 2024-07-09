@@ -14,7 +14,7 @@
   <title>日程 <- 天文大数据研讨班第二期</title>
       <style>
         .program_tab {
-          width: 100%;
+          width: 105%;
           border-collapse: collapse;
         }
 
@@ -23,11 +23,16 @@
           border: 1px solid black;
           padding: 8px;
           text-align: center;
+		  vertical-align: middle;
         }
 
-        .program_tab th {
-          background-color: #f2f2f2;
-        }
+        .green {
+                    background-color: #d9ead3;
+					
+                }
+				.height_{
+					height: 100px;
+				}
       </style>
 </head>
 
@@ -58,12 +63,12 @@
   </table>
   <br>
 
-  <h2>会议日程表</h2>
+  <center><h2>会议日程表</h2></center>
 
   <table class="program_tab">
     <thead>
       <tr>
-        <th>时间</th>
+        <th colspan="2">时间</th>
         <th>7月12日</th>
         <th>7月13日</th>
         <th>7月14日</th>
@@ -72,13 +77,14 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="height_">
+		  <td rowspan="4">上午</td>
         <td>9:00 - 10:00</td>
         <td>Raw Reduction (Paul)<br>(天文楼一楼报告厅)</td>
         <td>施老师: 恒星基本参数提取<br>(天文楼一楼报告厅)</td>
         <td>施老师: 恒星距离提取<br>(天文楼一楼报告厅)</td>
         <td>王雪燕: 视向速度<br>(天文楼一楼报告厅)</td>
-        <td>向定庚: 机器学习<br>(天文楼一楼报告厅)</td>
+        <td>向茂盛: 机器学习<br>(天文楼一楼报告厅)</td>
       </tr>
       <tr class="green">
         <td>10:00 - 10:30</td>
@@ -88,7 +94,7 @@
         <td>茶歇</td>
         <td>茶歇</td>
       </tr>
-      <tr>
+      <tr class="height_">
         <td>10:30 - 12:00</td>
         <td>自我介绍<br>(天文楼一楼报告厅)</td>
         <td>分组讨论</td>
@@ -104,12 +110,14 @@
         <td>午餐</td>
         <td>午餐</td>
       </tr>
-      <tr>
+      <tr class="height_">
+		  <td rowspan="4">下午</td>
         <td>14:00 - 15:30</td>
         <td>分组讨论</td>
         <td>分组讨论</td>
+        <td rowspan="3">参观抚仙湖太阳观测站</td>
         <td>分组讨论</td>
-        <td>参观抚仙湖太阳观测站</td>
+        
         <td>分组讨论</td>
       </tr>
       <tr class="green">
@@ -117,16 +125,17 @@
         <td>茶歇</td>
         <td>茶歇</td>
         <td>茶歇</td>
-        <td>茶歇</td>
+       
         <td>茶歇</td>
       </tr>
-      <tr>
+      <tr class="height_">
         <td>16:00 - 17:30</td>
-        <td>茶歇</td>
-        <td>茶歇</td>
-        <td>茶歇</td>
-        <td>茶歇</td>
-        <td>茶歇</td>
+        <td>分组讨论</td>
+        <td>分组讨论</td>
+        <td>分组讨论</td>
+       
+        <td>自我介绍<br/>
+(天文楼一楼报告厅)</td>
       </tr>
       <tr class="green">
         <td>19:30 - 19:00</td>
@@ -138,10 +147,10 @@
       </tr>
     </tbody>
   </table>
-  <p>分组情况及教室安排:
-    1. 恒星参数:2104,2111
-    2. 光谱处理:2210
-    3. 视向速度:1201，以及2210按需
+  <p>分组情况及教室安排:<br>
+    1. 恒星参数:2104,2111<br>
+    2. 光谱处理:2210<br>
+    3. 视向速度:1201，以及2210按需<br>
     4. 其他课题:1101，1113</p>
 
   <div class="images-side-by-side">
