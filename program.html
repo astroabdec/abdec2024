@@ -12,11 +12,24 @@
   <meta name="KeyWords" content="Conference">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   <title>日程 <- 天文大数据研讨班第二期</title>
-
+  <style>
+    .program_tab {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .program_tab th, .program_tab td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .program_tab th {
+        background-color: #f2f2f2;
+    }
+</style>
 </head>
 
 <body>
-  <div class="banner"> <img src="assets/banner_.png" class="imgbanner"
+  <div class="banner"> <img src="assets/banner_.webp" class="imgbanner"
       alt="Astronomy Big Data Exploration Camp (ABDEC) II: High Resolution Spectroscopy">
     <div class="top-left"> <span class="title1">天文大数据研讨班第二期： </span><span class="title2">高分辨率光谱</span> <span
         class="year">2024</span>
@@ -29,15 +42,16 @@
   <table class="navigation">
     <tbody>
       <tr>
-        <td class="navigation"> <a class="current" title="Conference Home Page" href="/abdec2024">Home</a> </td>
-
+        <td class="navigation"> <a class="current" title="Conference Home Page"
+  
+            href="/abdec2024">主页</a> </td>
+        
         </td>
-        <td class="navigation"> <a title="Conference Program" href="#">Program</a>
+        <td class="navigation"> <a title="Conference Program" href="program.html">日程</a>
         </td>
         <td class="navigation"> <a title="Logistics of the Conference" href="#">Logistics</a>
         </td>
-        <td class="navigation"> <a title="Conference Participant List" href="participant_list.html">Participant
-            List</a> </td>
+        <td class="navigation"> <a title="Conference Participant List" href="participant_list.html">参与人员</a> </td>
       </tr>
     </tbody>
   </table>
@@ -45,7 +59,7 @@
 
   <h2>会议日程表</h2>
 
-  <table>
+  <table class="program_tab">
     <thead>
         <tr>
             <th></th>
